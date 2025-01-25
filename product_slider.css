@@ -3,8 +3,10 @@ body{
     min-height: 100vh;
     margin: 0;
     font-family: Poppins;
-    color: #303e6e;
-    background-color: #617c9e;
+
+    color: #1E1E1E;
+    background-color: #CDCDCD;
+
     background-image:
     repeating-linear-gradient(
         to right, transparent 0 150px, #0001 150px 151px
@@ -80,13 +82,18 @@ header .author img{
     --left: 0px;
     background: 
         var(--url) var(--left),
-        url(images/mockup.png) 0 0;
+
+
+        url(mockup.png) 0 0;
+
     background-size: auto 100%;
     width: 280px;
     aspect-ratio: 2 / 4;
     background-blend-mode: multiply;
     transition: 0.8s;
-    mask-image: url(images/mockup.png);
+
+    mask-image: url(mockup.png);
+
     mask-size: auto 100%;
 }
 .soda:nth-child(2){
